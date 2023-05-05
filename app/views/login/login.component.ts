@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Http } from '@angular/http';
+import { DataService } from '../../services/data.service';
 
 @Component({
   selector: 'login',
@@ -7,4 +8,7 @@ import { Http } from '@angular/http';
   styleUrls: ['./login.component.scss'],
 })
 export class LoginViewComponent {
+  //TITLE IS AMAZING STORE
+
+  constructor() {}
 }

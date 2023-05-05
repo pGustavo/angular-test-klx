@@ -7,11 +7,6 @@ import { DataService } from '../../services/data.service';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
-export class HomeViewComponent implements OnInit {
-  stock;
-  constructor(private data: DataService) {}
-
-  ngOnInit() {
-    this.stock = this.data.getData();
-  }
+export class HomeViewComponent {
+ 
 }
